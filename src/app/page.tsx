@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { UserList } from '@/components/user-list';
 import { ArrowRight, Code2, Layers, Sparkles, Zap } from 'lucide-react';
 
 const features = [
@@ -148,6 +149,29 @@ export default function HomePage() {
               docker-compose up -d
             </Button>
           </div>
+        </motion.div>
+      </section>
+
+      {/* User List Section */}
+      <section className="container py-16">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+        >
+          <div className="mb-8 text-center">
+            <Badge variant="secondary" className="mb-4">
+              数据管理
+            </Badge>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              用户管理
+            </h2>
+            <p className="mt-4 text-muted-foreground">
+              支持分页浏览，轻松管理大量用户数据
+            </p>
+          </div>
+          <UserList />
         </motion.div>
       </section>
 
