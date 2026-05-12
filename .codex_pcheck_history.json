@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "target_path": "D:\\code\\trae\\gsb\\20260509\\B-78-代码生成-1\\TestM_4",
+  "workspace_path": "D:\\code\\trae\\gsb\\20260509\\B-78-代码生成-1\\TestM_4",
+  "workspace_storage_dir": "C:\\Users\\ch113\\AppData\\Roaming\\Trae CN\\User\\workspaceStorage\\280b3323cfd3806306d9e680799c8abe",
+  "history_count": 1,
+  "history": [
+    {
+      "inputText": "用户列表现在一次返回全部数据，数据量大了前端会卡。给用户查询加上分页，支持页码切换和每页条数设置，继续用现有的 API 响应结构，保持 TypeScript 类型完整，UI 组件沿用现有风格。",
+      "parsedQuery": [
+        "用户列表现在一次返回全部数据，数据量大了前端会卡。给用户查询加上分页，支持页码切换和每页条数设置，继续用现有的 API 响应结构，保持 TypeScript 类型完整，UI 组件沿用现有风格。"
+      ],
+      "multiMedia": []
+    }
+  ]
+}
