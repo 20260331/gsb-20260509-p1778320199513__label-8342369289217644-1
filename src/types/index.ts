@@ -3,8 +3,8 @@ export interface User {
   name: string;
   email: string;
   role: 'admin' | 'user';
-  createdAt?: Date;
-  updatedAt?: Date;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 export interface ApiResponse<T> {
